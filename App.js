@@ -6,15 +6,15 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 // import HomeScreen from "./screens/HomeScreen";
 
 const HomeScreen = () => {
-	return (
-		<View>
-			<Text className="text-red-500">HomeScreen loremx3</Text>
-			{/* <Button
+  return (
+    <View>
+      <Text className="text-red-500">HomeScreen loremx3</Text>
+      {/* <Button
 				title="Go to Details"
 				onPress={() => navigation.navigate("Details")}
 			/> */}
-		</View>
-	);
+    </View>
+  );
 };
 
 // function DetailsScreen({ navigation }) {
@@ -32,18 +32,19 @@ const HomeScreen = () => {
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-	return (
-		// <View>Hello</View>
-		<NavigationContainer>
-			<Stack.Navigator initialRouteName="Home">
-				<Stack.Screen name="Home" component={HomeScreen} />
-				{/* <Stack.Screen name="Details" component={DetailsScreen} /> */}
-			</Stack.Navigator>
-		</NavigationContainer>
-	);
+  return (
+    // <View>Hello</View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        {/* <Stack.Screen name="Details" component={DetailsScreen} /> */}
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
 
 /**
+ * https://docs.expo.dev/get-started/installation/
  * https://expo.dev/accounts/scientist33/projects/restaurant
  * https://tailwindcss-react-native.vercel.app/installation
  * https://reactnavigation.org/docs/getting-started/
