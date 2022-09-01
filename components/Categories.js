@@ -27,19 +27,83 @@ const Categories = () => {
       />
       <CategoryCard
         imgUrl="https://picsum.photos/id/45/20/20"
-        title="hello 3"
+        title="hello 4"
       />
       <CategoryCard
         imgUrl="https://picsum.photos/id/56/20/20"
-        title="hello 3"
+        title="hello 6"
       />
       <CategoryCard
         imgUrl="https://picsum.photos/id/76/20/20"
-        title="hello 3"
+        title="hello 7"
       />
       <CategoryCard
         imgUrl="https://picsum.photos/id/78/20/20"
-        title="hello 3"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/78/20/20"
+        title="hello 8"
       />
     </ScrollView>
   );
