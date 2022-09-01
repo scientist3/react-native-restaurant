@@ -1,0 +1,48 @@
+import { View, Text, ScrollView } from "react-native";
+import React from "react";
+import CategoryCard from "./CategoryCard";
+
+const Categories = () => {
+  return (
+    <ScrollView
+      contentContainerStyle={{
+        paddingHorizontal: 15,
+        paddingTop: 10,
+      }}
+      horizontal
+      showsHorizontalScrollIndicator={false}
+    >
+      {/* CatagoryCard */}
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/27/20/20"
+        title="hello 1"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/25/20/20"
+        title="hello 2"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/37/20/20"
+        title="hello 3"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/37/20/20"
+        title="hello 3"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/37/20/20"
+        title="hello 3"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/37/20/20"
+        title="hello 3"
+      />
+      <CategoryCard
+        imgUrl="https://picsum.photos/id/37/20/20"
+        title="hello 3"
+      />
+    </ScrollView>
+  );
+};
+
+export default Categories;
